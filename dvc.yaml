@@ -43,7 +43,7 @@ stages:
     - models/model.pkl
     - src/models/evaluate_model.py
     outs:
-    - data/processed_data/y_test_pred.csv
+    - data/y_test_pred.csv
     metrics:
     - metrics/scores.json:
         cache: false

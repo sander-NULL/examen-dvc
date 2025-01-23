@@ -20,4 +20,4 @@ with open('../../metrics/scores.json', 'w') as file:
     json.dump(metric, file)
 
 y_pred = rf.predict(X_test_scaled)
-pd.DataFrame(y_pred).to_csv('../../data/processed_data/y_test_pred.csv')
+pd.DataFrame(y_pred).to_csv('../../data/y_test_pred.csv')
