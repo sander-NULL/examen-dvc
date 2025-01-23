@@ -12,7 +12,7 @@ print('Splitting data into train and test sets...')
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
-X_train.to_csv('../../data/processed_data/split/X_train.csv')
-X_test.to_csv('../../data/processed_data/split/X_test.csv')
-y_train.to_csv('../../data/processed_data/split/y_train.csv')
-y_test.to_csv('../../data/processed_data/split/y_test.csv')
+X_train.to_csv('../../data/processed_data/X_train.csv')
+X_test.to_csv('../../data/processed_data/X_test.csv')
+y_train.to_csv('../../data/processed_data/y_train.csv')
+y_test.to_csv('../../data/processed_data/y_test.csv')

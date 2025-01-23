@@ -5,8 +5,8 @@ from sklearn.ensemble import RandomForestRegressor
 import pickle
 
 os.chdir(os.path.dirname(__file__))
-X_train_scaled = pd.read_csv('../../data/processed_data/normalized/X_train_scaled.csv', index_col=0)
-y_train = pd.read_csv('../../data/processed_data/split/y_train.csv', index_col=0)
+X_train_scaled = pd.read_csv('../../data/processed_data/X_train_scaled.csv', index_col=0)
+y_train = pd.read_csv('../../data/processed_data/y_train.csv', index_col=0)
 y_train = y_train.iloc[:, 0]
 
 print('Doing grid search and finding best hyperparameters...')
